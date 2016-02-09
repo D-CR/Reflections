@@ -1,0 +1,13 @@
+It saved me a LARGE amount of time looking for typos by bringing up the difference quickly.
+
+Having access to the history a file or repo has multiple benefits. The first is that if you have a currently faulty version you can revert to a previous one. The second is one can view the entire evolution of the codebase. This may allow for a deeper understanding of both the design choices and implementation of the code.
+
+Manual commits mean that you're less likely to save a mistake or a logical flaw.The code is more likely to have a logical end point and to compile. 
+
+The downside is in the event of an unexpected crash you may lose some key changes wich may not have been saved manually. But this is an edge chase and can be worked around.
+
+Git was designed with code specifically in mind - where files are often interwoven. Google Docs was designed with docuements in mind - which are generally seperate entities.
+
+I can use the commands git log and git diff to find out exactly the changes that have been made between two file && exactly when.
+
+Version control makes me confident that I can break something in my codebase AND COMPILE without negative reprocussions. Furthermore, it will show all the changes between buggy and non-buggy versions.

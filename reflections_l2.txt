@@ -1,0 +1,14 @@
+Situations that involve different versions of the same product or altering
+key features could be useful to branch out.
+
+Diagrams help visualise branch structure by seeing how each branch and node are related. It also helps vidualise which commits are about to become unreachable
+if they aren't branched out themselves. using the -b tag on that commit will create and then move to a new branch with whatever name you give after the -b tag.:wq
+
+When merging two files - ensure that the latest commit has had any excessive ===== >>>> <<<< removed. This will break your file and are auto-inserted. 
+
+Remember that the branch you are currently in is the 'base' to which the other 
+branch will be added.
+
+A con of auto merge is that if you weren't expecting it to fail it really confuses you. By you I mean me. As it was my first time.
+
+
